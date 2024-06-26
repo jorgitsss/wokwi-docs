@@ -108,6 +108,14 @@ You can also [try this example on Wokwi](https://wokwi.com/projects/294342288335
 | <wokwi-lcd1602 text="Hello World!" />                                 | `{ }`                                        |
 | <wokwi-lcd1602 text="Hello World!" pins="i2c" />                      | `{ "pins": "i2c" }`                          |
 | <wokwi-lcd1602 background="blue" color="white" text="Hello World!" /> | `{ "background": "blue", "color": "white" }` |
+| <wokwi-lcd1602 full attrs /> | `"attrs": {
+    "pins": "i2c",
+    "full": "i2cAddress",  // Description can be added as a comment
+    "i2cAddress": "0x27",
+    "color": "black",
+    "background": "green",
+    "variantFont": "A00"
+  }` |
 
 ## Font
 
